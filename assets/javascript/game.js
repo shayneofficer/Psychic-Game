@@ -19,6 +19,7 @@ console.log(correctLetter);
 
 document.onkeyup = function (event) {
     var userInput = event.key;
+
     userInput = userInput.toUpperCase();
 
     console.log("input: " + userInput);
